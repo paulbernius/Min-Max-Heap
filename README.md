@@ -8,6 +8,28 @@
 
 ## Logic
 
+### Description
+
+> - A min-max heap is a complete binary tree containing alternating min (or even) and max (or odd) levels. Even levels are for example 0, 2, 4, etc, and odd levels are respectively 1, 3, 5, etc. We assume in the next points that the root element is at the first level, i.e., 0.
+> - Each node in a min-max heap has a data member (usually called key) whose value is used to determine the order of the node in the min-max heap.
+> - The root element is the smallest element in the min-max heap. *(Min-Max Heap)*
+> - One of the two elements in the second level, which is a max (or odd) level, is the greatest element in the min-max heap
+> - Let *x* be any node in a min-max heap.<br/>
+>   - If *x* is on a min (or even) level, then *x*.key is the minimum key among all keys in the subtree with root *x*.<br/>
+>   - If *x* is on a max (or odd) level, then *x*.key is the maximum key among all keys in the subtree with root *x*.<br/>
+> - A node on a min (max) level is called a min (max) node.
+> <br/><br/> *(Min-Max Heap)*
+
+### Operations
+
+- BuildHeap
+- Push Down
+- Push Down Min
+- Push Down Max
+- Push Up
+- Push Up Min
+- Push Up Max
+
 
 ## Screenshots
 
